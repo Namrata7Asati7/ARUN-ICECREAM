@@ -18,7 +18,7 @@
     --main-color: #000000;
   }
 body {
-    background: #ffb4b4;
+    background: #ff8080;
 }
 
 .act,
@@ -60,4 +60,8 @@ svg.wave {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+.navbar-nav{
+  margin: 2%;
 }
