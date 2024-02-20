@@ -5,7 +5,7 @@
 
 :root {
     --color-body: #352961;
-    --color-heading: #3a0842; /* text*/
+    --color-heading: #6b4158; /* text*/
     --color-base: #ffb5d1;/*boxes #e6b2c6*/
     --color-base2: #f6e5e5 ;/*background*/
     --color-brand: #3a0842; /*shadow*/
@@ -15,6 +15,9 @@
     --font-base: "Bai Jamjuree";
     color: black;
 }
+
+
+
 
 .colo{
      box-shadow: 2px white;
@@ -41,17 +44,21 @@ body{
     font: 'Badoni'; /* This is a classic and elegant serif font */
     }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h5,h6 {
     color: var(--color-heading);
     font-weight: 700;
 }
-
+H4{
+    color: var(--color-brand);
+}
 a{
     text-decoration: none;
     color: var(--color-brand);
     transition: all 0.4s ease;
 }
-
+p{
+    color: var(--color-brand);
+}
 a:hover{
     color:var(--color-body);
 }
@@ -62,6 +69,10 @@ img{
 
 .text-brand {
     color: var(--color-brand);
+}
+
+.heading{
+    color: var(--color-heading);
 }
 
 .bg-base {
@@ -84,7 +95,7 @@ img{
 }
 
 .shadow-effect:hover {
-    box-shadow: -6px 6px 0 0 var(--color-brand);
+    box-shadow: -6px 6px 0 0 var(--color-heading);
 }
 
 .iconbox {
