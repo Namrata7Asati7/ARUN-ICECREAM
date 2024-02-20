@@ -1,14 +1,14 @@
 @font-face {
     font-family: myfonts;
-    src: url("assets/fonts/la-brands-400.eot");
+    src: url("assets/fonts/fa-brands-400.ttf");
 }
 
 :root {
     --color-body: #352961;
-    --color-heading: #774181; /* text*/
-    --color-base: #e6b2c6;/*boxes*/
+    --color-heading: #3a0842; /* text*/
+    --color-base: #ffb5d1;/*boxes #e6b2c6*/
     --color-base2: #f6e5e5 ;/*background*/
-    --color-brand: #6b4158; /*shadow*/
+    --color-brand: #3a0842; /*shadow*/
     --color-brand2: #fae3fd;
     --color-name: #a9a1aa;
     --sidbar-width: 240px;
@@ -20,7 +20,7 @@
      box-shadow: 2px white;
 }
 
-body{
+/* body{
 background-color: rgb(10, 0, 2);
 color: var(--color-body);
 font-family: 'Cedarville Cursive', cursive;
@@ -31,7 +31,15 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Slab', serif;
-}
+} */
+
+/* #c29dc2   */
+body{
+    /* background: linear-gradient(black, grey , white); */
+    background-color: rgb(10, 0, 2);
+    color: var(--color-body);
+    font: 'Badoni'; /* This is a classic and elegant serif font */
+    }
 
 h1,h2,h3,h4,h5,h6 {
     color: var(--color-heading);
@@ -94,7 +102,7 @@ img{
 
 
 .navbar{
-        background-color: var(--color-base);
+        background: linear-gradient(rgba(11, 3, 53, 0.959), rgb(0, 0, 0));
     }
 
 .navbar .nav-link {
