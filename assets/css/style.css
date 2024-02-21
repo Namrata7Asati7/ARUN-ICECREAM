@@ -50,7 +50,7 @@ h1,h2,h3,h5{
 }
 
 h6{
-    color: var(--color-base2);
+    color: var(--color-base);
 }
 
 h4{
@@ -128,11 +128,11 @@ img{
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand) ;
+    color: var(--color-base) ;
 }
 
 .navbar .nav-link.active {
-    color: var(--color-brand);
+    color: var(--color-base);
 }
 
 @media (min-width: 992px) {
