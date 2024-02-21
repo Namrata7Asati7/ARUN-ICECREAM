@@ -10,7 +10,7 @@
     --color-base2: #f6e5e5 ;/*background*/
     --color-brand: #3a0842; /*shadow*/
     --color-brand2: #fae3fd;
-    --color-name: #a9a1aa;
+    --color-name: #5c5c5c;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
     color: black;
@@ -44,11 +44,16 @@ body{
     font: 'Badoni'; /* This is a classic and elegant serif font */
     }
 
-h1,h2,h3,h5,h6 {
+h1,h2,h3,h5{
     color: var(--color-heading);
     font-weight: 700;
 }
-H4{
+
+h6{
+    color: var(--color-base2);
+}
+
+h4{
     color: var(--color-brand);
 }
 a{
@@ -155,7 +160,7 @@ img{
 }
 
 .btn-brand {
-    background-color: var(--color-brand) ;
+    background-color: var(--color-heading) ;
     border-color: var(--color-brand) ;
 }
 
