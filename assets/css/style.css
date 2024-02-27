@@ -241,16 +241,19 @@ width: 100%;
     width: 50%;
     text-align: center;
     margin: 25%;
+    margin-top: 0%;
 }
 
 .kulfi{
     width: 65%;
     text-align: center;
     margin: 20%;
+    margin-top: 0%;
 }
 
 .cake{
     width: 80%;
     text-align: center;
     margin: 10%;
+    margin-top: 0%;
 }
