@@ -4,8 +4,8 @@
 }
 
 :root {
-    --color-body: #352961;
-    --color-heading: #6b4158; /* text*/
+    --color-body: #734012;
+    --color-heading: #39254D; /* text*/
     --color-base: #ffb5d1;/*boxes #e6b2c6*/
     --color-base2: #f6e5e5 ;/*background*/
     --color-brand: #3a0842; /*shadow*/
@@ -16,8 +16,7 @@
     color: black;
 }
 
-
-
+/*  */
 
 .colo{
      box-shadow: 2px white;
@@ -37,6 +36,9 @@ font-family: 'Roboto Slab', serif;
 } */
 
 /* #c29dc2   */
+#home{
+    background-image: url("p1.png");
+}
 body{
     /* background: linear-gradient(black, grey , white); */
     background-color: rgb(10, 0, 2);

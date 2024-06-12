@@ -77,3 +77,48 @@ form.addEventListener("submit", function (e) {
             }, 5000);
         });
 });
+
+// Search bar
+
+document.addEventListener('DOMContentLoaded', function() {
+    const searchBar = document.getElementById('searchBar');
+    const suggestionBox = document.getElementById('suggestionBox');
+    const items = [
+        { name: "ICECREAM/BAR", id: "ICECREAM/BAR" },
+        { name: "IBAR SPECIALS", id: "IBAR SPECIALS" },
+        { name: "I-CONE", id: "I-CONE" },
+        { name: "CUPS", id: "CUPS" },
+        { name: "TUPS", id: "TUPS" },
+        { name: "SHAKES", id: "SHAKES" },
+        { name: "SPECIALITY", id: "SPECIALITY" },
+        
+    ];
+
+    searchBar.addEventListener('input', function() {
+        let query = this.value.toLowerCase();
+        suggestionBox.innerHTML = '';
+        if (query) {
+            const filteredItems = items.filter(item => item.name.toLowerCase().includes(query));
+            filteredItems.forEach(item => {
+                const suggestionItem = document.createElement('div');
+                suggestionItem.classList.add('suggestion-item');
+                suggestionItem.innerHTML = item.name.replace(new RegExp(query, 'gi'), match => `<span class="highlight">${match}</span>`);
+                suggestionItem.addEventListener('click', function() {
+                    searchBar.value = item.name;
+                    suggestionBox.style.display = 'none';
+                    document.getElementById(item.id).scrollIntoView({ behavior: 'smooth' });
+                });
+                suggestionBox.appendChild(suggestionItem);
+            });
+            suggestionBox.style.display = 'block';
+        } else {
+            suggestionBox.style.display = 'none';
+        }
+    });
+
+    document.addEventListener('click', function(event) {
+        if (!searchBar.contains(event.target) && !suggestionBox.contains(event.target)) {
+            suggestionBox.style.display = 'none';
+        }
+    });
+});
