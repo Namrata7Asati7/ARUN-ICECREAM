@@ -40,7 +40,7 @@ font-family: 'Roboto Slab', serif;
 body{
     /* background: linear-gradient(black, grey , white); */
      background-color: #fff9ef; 
-    /* background-image: url("p1.png"); */
+    /*  */
     color: var(--color-body);
     font: 'Badoni'; /* This is a classic and elegant serif font */
     }
