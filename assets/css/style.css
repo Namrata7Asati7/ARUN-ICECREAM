@@ -36,12 +36,11 @@ font-family: 'Roboto Slab', serif;
 } */
 
 /* #c29dc2   */
-#home{
-    background-image: url("p1.png");
-}
+
 body{
     /* background: linear-gradient(black, grey , white); */
-    background-color: rgb(10, 0, 2);
+     background-color: #fff9ef; 
+    /* background-image: url("p1.png"); */
     color: var(--color-body);
     font: 'Badoni'; /* This is a classic and elegant serif font */
     }
