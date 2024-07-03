@@ -39,7 +39,7 @@ font-family: 'Roboto Slab', serif;
 
 body{
     /* background: linear-gradient(black, grey , white); */
-     background-color: #fff9ef; 
+     background-color: #0e011a; 
     /*  */
     color: var(--color-body);
     font: 'Badoni'; /* This is a classic and elegant serif font */
@@ -48,6 +48,10 @@ body{
 h1,h2,h3,h5{
     color: var(--color-heading);
     font-weight: 700;
+    
+    /*shadow effect*/
+    
+    /* end*/
 }
 
 h6{
