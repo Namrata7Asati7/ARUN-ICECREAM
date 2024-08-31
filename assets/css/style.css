@@ -52,12 +52,10 @@ font-family: 'Roboto Slab', serif;
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 100vw; /* Use viewport width to ensure full width coverage */
+    height: 100vh; /* Use viewport height to ensure full height coverage */
+    object-fit: cover; /* Ensure the video scales while maintaining aspect ratio */
     transform: translate(-50%, -50%);
-    background-size: cover;
     z-index: -1;
 }
 
@@ -69,8 +67,6 @@ font-family: 'Roboto Slab', serif;
     color: white;
     padding: 50px;
 }
-
-
 /* video */
 
 body{
