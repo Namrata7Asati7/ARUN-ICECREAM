@@ -4,21 +4,33 @@
 }
 
 :root {
-    --color-body: #734012;
-    --color-heading: #39254D; /* text*/
+    --color-body: #0f070b;
+    --color-heading: #15033f; /* text*/
     --color-base: #ffb5d1;/*boxes #e6b2c6*/
-    --color-base2: #f6e5e5 ;/*background*/
-    --color-brand: #3a0842; /*shadow*/
-    --color-brand2: #fae3fd;
+    --color-base2: #FF00FF ;/*background*/
+    --color-brand: #4B0082; /*shadow*/
+    --color-brand2:  linear-gradient(#3533CD, #000000);
     --color-name: #5c5c5c;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
     color: black;
 }
+/* :root {
+    --color-body: #734012;
+    --color-heading: #39254D;
+    --color-base: #ffb5d1;
+    --color-base2: #f6e5e5 ;
+    --color-brand: #3a0842; 
+    --color-brand2: #fae3fd;
+    --color-name: #5c5c5c;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+    color: black;
+} */
 
 /*  */
 
-.colo{
+.color{
      box-shadow: 2px white;
 }
 
@@ -69,6 +81,7 @@ font-family: 'Roboto Slab', serif;
 }
 /* video */
 
+
 body{
     /* background: linear-gradient(black, grey , white); */
      background-color: #0e011a; 
@@ -78,7 +91,15 @@ body{
     }
 
 h1,h2,h3,h5{
-    color: var(--color-heading);
+    color: var(--color-base);
+    font-weight: 700;
+    
+    /*shadow effect*/
+    
+    /* end*/
+}
+h1{
+    color: white;
     font-weight: 700;
     
     /*shadow effect*/
