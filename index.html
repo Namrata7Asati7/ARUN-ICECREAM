@@ -69,6 +69,14 @@
     <!-- HOME  style="background-image: url('NEW LOGO.png');" -->
     <section id="home" class="full-height px-lg-5" >
       <div class="container">
+        <!-- video -->
+        <div class="video-background">
+          <video autoplay muted loop id="background-video">
+              <source src="./assets/Video/Untitled design1.mp4" type="video/mp4">
+              <!-- Your browser does not support the video tag. -->
+          </video>
+      </div>
+         <!-- video -->
         <div class="row">
           <div class="col-lg-10">
             <!-- <img src="./assets/images/arun-icecream-logo.png" alt="Arun Logo" style="width: 30%;"> -->
@@ -2083,6 +2091,12 @@
                   class="btn btn-brand w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
                   Send Message
                 </button>
+              </div>
+
+              <p class="text-base text-center text-gray-400" id="result"></p>
+
+              <div class="form-group col-12 d-grid">
+                <button class="btn btn-brand w-full px-3 py-4 text-white bg-indigo-500 rounded-md " onclick="window.location.href = 'https://docs.google.com/forms/d/1lkIHPrTvgQ7Mkw3p5qaMzUq8ZngqOAfdERlQyGPJkPQ/edit';">ORDER NOW</button>
               </div>
               <p class="text-base text-center text-gray-400" id="result"></p>
             </form>
